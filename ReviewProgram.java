@@ -2,6 +2,7 @@
 *
 *
 */
+
 import java.util.Scanner;
 public class ReviewProgram{
 
@@ -14,11 +15,19 @@ public class ReviewProgram{
     int number2 = input.nextInt();
     
     int result = rp.add(number1, number2);
+    System.out.println("The result of addition of two numbers " + number1 + " and " + number2 + " is " + result);
+    
+    int resultStatic = ReviewProgram.add(number1, number2); //add(number1, number2)
     
    }
 
 public int add(int firstNum, int secondNum) {
-    return firstNum + second Num;
+    return firstNum + secondNum;
    }
+   
+public static int addStatic(int firstNum, int secondNum)
+{
+    return firstNum + secondNum;
+  }
         
 }
