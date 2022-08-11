@@ -1,6 +1,9 @@
-/**
-*
-*
+/**Class: Intermediate Programming
+* @author: Nikki Vongsamphanh
+* @version 1.0
+* Course: ITEC2140 - 03
+* Written: August 11, 2022
+* Description: This code creates a program that adds two integers from user's input together.
 */
 
 import java.util.Scanner;
