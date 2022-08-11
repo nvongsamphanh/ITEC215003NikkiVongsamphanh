@@ -18,6 +18,7 @@ public class ReviewProgram{
     System.out.println("The result of addition of two numbers " + number1 + " and " + number2 + " is " + result);
     
     int resultStatic = ReviewProgram.add(number1, number2); //add(number1, number2)
+    System.out.println("The result of addition of two numbers " + number1 + " and " + number2 + " is " + result);
     
    }
 
