@@ -27,9 +27,9 @@ public class MultiArrayDemo1 {
 
         //System.out.printf(Arrays.deepToString(miles));
 
-        System.out.printf("Sum of miles: %d\n", + ob.getSumFrom2D(miles));
+        System.out.printf("Sum of miles: %d\n",ob.getSumFrom2D(miles));
 
-        System.out.printf("Average of miles: %d\n", ob.getAverageFrom2D(miles));
+        System.out.printf("Average of miles: %d\n",ob.getAverageFrom2D(miles));
     }
 
 
