@@ -10,5 +10,15 @@ public class GradeExam {
                         {'B', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
                         {'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}};
         char[] keys = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
+        
+        for (int studentID = 0; studentID < studentAnswers.length; studentID++){
+            int count = 0;
+            for (int answer = 0; answer < studentAnswers[studentID].length; answer++){
+                if (studentAnswers[studentID] [answer] == keys [answer]){
+                count++;
+                }
+            }
+        }
+        System.out.println("Student " + (studentID + 1) + " answered " + answer + " correctly.");
     }
 }
