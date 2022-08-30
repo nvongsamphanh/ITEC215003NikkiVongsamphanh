@@ -1,0 +1,31 @@
+public class GradeExamForEach {
+        public static void main(String[] args) {
+            char[][] studentAnswers =
+                    {{'A', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+                            {'D', 'B', 'A', 'B', 'C', 'A', 'E', 'E', 'A', 'D'},
+                            {'E', 'D', 'D', 'A', 'C', 'B', 'E', 'E', 'A', 'D'},
+                            {'C', 'B', 'A', 'E', 'D', 'C', 'E', 'E', 'A', 'D'},
+                            {'A', 'B', 'D', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+                            {'B', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+                            {'B', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
+                            {'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}};
+            char[] keys = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
+
+            int studentID = 0;
+
+            for (char [] studentAnswer: studentAnswers)
+            {
+                int count = 0;
+                int repeat = 0;
+                for (char answer: studentAnswer)
+                {
+                    if (answer == keys [repeat]) {
+                        count++;
+                    }
+                    studentID++;
+                    repeat++;
+                    System.out.println("Student ID " + studentID + " answered " + count + " correctly.");
+                    }
+                }
+            }
+        }
